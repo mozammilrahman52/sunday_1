@@ -18,5 +18,7 @@ public class B {
         B b2 = getB();
         System.out.println(b1);
         System.out.println(b2);
+        System.out.println(b1.hashCode());
+        System.out.println(b2.hashCode());
     }
 }
